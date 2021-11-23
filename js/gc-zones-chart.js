@@ -281,6 +281,7 @@ Vue.component('gc-zones-chart', {
           columns: [],
           type: this.gcMode, 
           colors: pie_color_options,
+          order: null, // loading order; "desc" or "asc" order by value is also available
           names: {
             "zone_1": "zone 1 (> 25% below mean)",
             "zone_2": "zone 2 (5% to 25% below mean)",
